@@ -10,6 +10,10 @@ A naive solution is to iterate through all numbers from 2 to sqrt(n) and for eve
 If we find any number that divides, we return false.
 
 Time Complexity: O(sqrt{n}) 
+
+apan ne root n tak hi kyu iterate kiya? 
+agar koi number prime nhi hai then uske atleast do factors hoge one at a distance<= √n and other at a distance
+>=√n .ye chiz confirm hai. agar <=√n me hi nhi mila kuch iska matlab vo prime hi hai ye confirm.
 */
 
 #include <bits/stdc++.h>
